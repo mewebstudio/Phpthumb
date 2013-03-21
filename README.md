@@ -65,8 +65,10 @@ Find the `providers` key in `app/config/app.php` and register the PHPThumb Servi
 
 ## Links
 
-* [PHPThumb on Github](https://github.com/mewebstudio/mecaptcha)
-* [PHPThumb on Packagist](https://packagist.org/packages/mews/phpthumb)
+* [PHPThumb Library website](http://phpthumb.gxdlabs.com/)
+
+* [L4 PHPThumb on Github](https://github.com/mewebstudio/mecaptcha)
+* [L4 PHPThumb on Packagist](https://packagist.org/packages/mews/phpthumb)
 * [License](http://www.opensource.org/licenses/mit-license.php)
 * [Laravel website](http://laravel.com)
 * [Laravel Turkiye website](http://www.laravel.gen.tr)
