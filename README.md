@@ -42,7 +42,6 @@ Find the `providers` key in `app/config/app.php` and register the PHPThumb Servi
 
         public function getIndex()
         {
-            //return 'test';
 
             $file = base_path() . '/test.jpg';
             //$file = 'http://phpthumb.gxdlabs.com/wp-content/themes/phpthumb/images/header_bg.png';
