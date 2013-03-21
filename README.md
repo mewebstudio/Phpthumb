@@ -52,9 +52,8 @@ Find the `providers` key in `app/config/app.php` and register the PHPThumb Servi
                 //->create('resize', array($file, 400, 400, 'adaptive'))
                 //->rotate(array('degree', 180))
                 ->reflection(array(40, 40, 80, true, '#a4a4a4'))
-                ->show();
                 //->save(base_path() . '/', 'aaa.jpg');
-            //App::make('phpthumb')->create()->view()->save();
+                ->show();
         }
 
     }
