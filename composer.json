@@ -1,0 +1,23 @@
+{
+    "name": "mews/phpthumb",
+    "description": "",
+    "authors": [
+        {
+            "name": "Muharrem ERIN",
+            "email": "me@mewebstudio.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Mews\\Phpthumb": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
