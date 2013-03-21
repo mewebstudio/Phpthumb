@@ -18,6 +18,8 @@ project's `composer.json`.
 }
 ```
 
+Update your packages with ```composer update``` or install with ```composer install```.
+
 ## Usage
 
 To use the PHPThumb Service Provider, you must register the provider when bootstrapping your Laravel application. There are
