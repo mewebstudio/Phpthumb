@@ -1,6 +1,9 @@
 {
     "name": "mews/phpthumb",
-    "description": "",
+    "description": "PHPThumb Package for Laravel 4",
+    "keywords": ["L4", "Laravel 4", "Laravel", "PHPThumb", "image", "thumb", "Thumbnail"],
+    "homepage": "http://github.com/mewebstudio/Phpthumb",
+    "license": "MIT",
     "authors": [
         {
             "name": "Muharrem ERIN",
