@@ -1,6 +1,6 @@
 # PHPThumb for Laravel 4
 
-A simple [Laravel 4](http://four.laravel.com/) service provider for including the [PHPThumb for Laravel 4](https://github.com/mewebstudio/mecaptcha).
+A simple [Laravel 4](http://four.laravel.com/) service provider for including the [PHPThumb for Laravel 4](https://github.com/mewebstudio/phpthumb).
 
 ## Installation
 
