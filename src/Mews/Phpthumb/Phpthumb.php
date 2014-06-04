@@ -4,7 +4,7 @@ require_once __DIR__ . '/lib/ThumbLib.inc.php';
 
 use View, Config, File;
 use Illuminate\Config\Repository;
-use Illuminate\View\Environment;
+use Illuminate\View\Factory;
 
 use PhpThumbFactory as Thumb;
 
@@ -27,7 +27,7 @@ class Phpthumb {
     /**
      * Illuminate view environment.
      *
-     * @var Illuminate\View\Environment
+     * @var Illuminate\View\Factory
      */
     protected $view;
 
@@ -45,7 +45,7 @@ class Phpthumb {
      * @param  Illuminate\Config\Repository  $config
      * @return void
      */
-    public function __construct(Environment $view, Repository $config)
+    public function __construct(Factory $view, Repository $config)
     {
 
         $this->view = $view;
@@ -79,7 +79,7 @@ class Phpthumb {
             }
             elseif ($args[3] == 'percent')
             {
-                $this->thumb->resizePercent($args[1]);    
+                $this->thumb->resizePercent($args[1]);
             }
             else
             {
